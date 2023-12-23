@@ -100,8 +100,14 @@ h1,.rate{
   width: 70%;
 }
 .im-col{
-  margin: 0px; margin-top: 0px;
-}
+ 
+    margin: 10px; 
+    margin-top: 90px;
+  }
+  
+  .content{
+    height: 80% !important;
+  }
 
 }
 
