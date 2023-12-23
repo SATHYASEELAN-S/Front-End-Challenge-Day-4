@@ -1,0 +1,172 @@
+body{
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: hsl(300, 24%, 96%);
+    
+}
+
+.content{
+   background-color:  hsl(0, 0%, 100%);
+   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+   background-image: url('./images/bg-pattern-top-desktop.svg');
+   background-repeat: no-repeat;
+
+}
+.row-cols-2{
+  background-image: url('./images/bg-pattern-bottom-desktop.svg');
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+}
+
+.img {
+  width: 12%;
+  max-width: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.col-lg-3 {
+  background-color:   hsl(300, 43%, 22%);
+}
+small, .p{
+  color:   hsl(333, 80%, 67%);
+}
+
+.fw{
+    color:   hsl(300, 24%, 96%);
+    font-weight: 700;
+  }
+
+  svg{
+    margin-right: 5px;
+  }
+  
+
+.star{
+  border-radius: 7px;
+  background-color: hsl(300, 24%, 96%);
+  width: 60%;
+}
+.star1{
+  margin-left:9% ;
+}
+.star2{
+  margin-left:18% ;
+}
+.star3{
+  margin-left:27%; 
+}
+.star-col{
+  flex-direction: row;  
+  height:45px;
+}
+
+h1,.rate{
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  
+ 
+}
+.cls{
+  font-weight: 400;
+  color:   hsl(300, 24%, 96%);
+
+}
+.head-line{
+  padding-left: 134px;
+  padding-top: 5%;
+}
+
+.row-cols-3{
+  margin-bottom: 100%;
+}
+
+.im-col{
+  margin: 10px; 
+  margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+@media ( max-width:1200px){
+  
+.star{
+  width: 70%;
+}
+.im-col{
+  margin: 0px; margin-top: 0px;
+}
+
+}
+
+@media ( max-width:992px){
+  .container{
+    height: auto !important;
+  }
+  .star{
+
+    width: 100%;
+    margin: 0 !important;
+    margin-top: 10% !important;
+    /* margin-bottom: 5px !important; */
+  }
+  .row-cols-3{
+    margin-top: 3% !important;
+  }
+  .star-col{
+    width: 100%;
+  }
+
+
+.row-cols-2{
+ background-image: url('');
+}
+}
+
+@media ( max-width:768px){
+  .star{
+  
+    width: 120%;
+    margin: 0 !important;
+    margin-top: 10% !important;
+    margin-left: -10% !important;
+    /* margin-bottom: 5px !important; */
+  }
+  
+  .content{
+    background-image: url('');
+ 
+ }
+.row-cols-2{
+ background-image: url('');
+}
+
+}
+
+@media(max-width:500px){
+  
+    svg{
+      margin-right: 0px;
+    }
+    .content{
+
+      background-image: url('./images/bg-pattern-top-mobile.svg');
+
+      background-repeat: no-repeat;
+   
+   
+   
+    
+.head-line{
+  padding-left: 50px;
+  margin-top:   10px;
+  
+}
+  }
+}
