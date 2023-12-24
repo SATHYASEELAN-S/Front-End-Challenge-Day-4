@@ -94,7 +94,7 @@ h1,.rate{
 
 
 
-@media ( max-width:1200px){
+@media ( min-width:1200px) ,( max-width:1200px){
   
 .star{
   width: 70%;
@@ -108,7 +108,16 @@ h1,.rate{
   .content{
     height: 80% !important;
   }
-
+  .star2{
+    margin-left: 0px  !important;
+    padding-left:start !important;
+  }
+  .star1{
+    margin-left: -10% !important;
+  }
+.star3{
+  margin-left: 18% !important ;
+}
 }
 
 @media ( max-width:992px){
@@ -129,6 +138,21 @@ h1,.rate{
     width: 100%;
   }
 
+  .row1{
+    display: flex;
+    justify-content: center;
+  margin-left: 2%;
+  padding-left: 30px;
+  padding-top: 2%;
+  }
+  
+.head-line{
+  display: flex;
+  flex-direction: column;
+ 
+  padding: 0;
+  /* padding-top: 5%; */
+}
 
 .row-cols-2{
  background-image: url('');
@@ -152,14 +176,31 @@ h1,.rate{
 .row-cols-2{
  background-image: url('');
 }
+.im-col{
+ 
+  margin: 10px; 
+  margin-top: 0px;
+}
+.star2{
+  flex-direction: row  ; 
+  justify-content: center;
+  align-items: center; 
+  margin: 0;
+  margin-top: 20px;
+}
+.rate{
+  padding-top: 10px !important;
+}
+.star-col{
+  display: flex;
+  flex-direction: column  ;  
+  height:80px;
+}
 
 }
 
 @media(max-width:500px){
   
-    svg{
-      margin-right: 0px;
-    }
     .content{
 
       background-image: url('./images/bg-pattern-top-mobile.svg');
@@ -168,11 +209,23 @@ h1,.rate{
    
    
    
-    
-.head-line{
-  padding-left: 50px;
-  margin-top:   10px;
-  
-}
+
+  }    
+
+  .head-line{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0;
+    /* padding-top: 5%; */
   }
+.row1{
+  margin-left: 0px;
+  margin-right: 10px;
+}  
+.im-col{
+ 
+  margin: 0px; 
+  margin-top: 0px;
+}
 }
